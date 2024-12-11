@@ -20,7 +20,7 @@ function App() {
 
   useEffect(() => {
     handleCallback();
-  }, []);
+  }, []); 
 
 
   const getTopArtists = async (accessToken) => {
